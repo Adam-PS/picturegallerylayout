@@ -1,15 +1,78 @@
 /* Base */
-/* parallax */
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+	background-color: #ccc;
+}
+
+li {
+	text-decoration: none;
+	display: block;
+}
 
 /* Header */
 /* hamburger menu */
+#icon {
+	position: fixed;
+	top: 15px;
+	left: 15px;
+	z-index: 1;
+	height: 40px;
+	width: 40px;
+	background-color: #0f0;
+	opacity: .6;
+	filter: alpha(opacity=60);
+}
+
+#icon:hover {
+	opacity: .9;
+	filter: alpha(opacity=90);	
+}
 
 /* Main */
-/* vertical layout */
+#gallery {
+	margin: 0;
+	padding: 0;
+}
 
+#gallery img {
+	margin: 20px 0;
+	height: 240px;
+	width: 240px;
+}
 /* 480px Breakpoint Enhancements */
-/* horizontal nav bar */
+@media (min-width: 480px) {
+#nav {
+	padding: 20px 0 0 0;
+	height: 60px;
+}
+
+#nav li {
+	display: inline-block;
+	margin: 0 5px;
+	height: 30px;
+	opacity: .3;
+	filter: alpha(opacity=30);
+}
+
+#nav li:hover {
+	opacity: .6;
+	filter: alpha(opacity=60);
+}
+
+#nav a {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #909;
+}
+}
 
 /* 600px Breakpoint Enhancements */
-/* landscape layout */
+@media (min-width: 480px) {
 
+}
