@@ -91,9 +91,10 @@ li {
 #menu li {
 	display: inline-block;
 	margin: 0 5px;
+	padding: 5px;
 	height: 30px;
-	opacity: .3;
-	filter: alpha(opacity=30);
+	opacity: .5;
+	filter: alpha(opacity=50);
 }
 
 #menu ul li:hover {
@@ -106,7 +107,7 @@ li {
 	font-weight: 900;
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #909;
+	color: #333;
 }
 }
 
