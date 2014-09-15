@@ -51,13 +51,9 @@ li {
 	
 	
 /* Main */
-#gallery {
-	margin: 0;
-	padding: 0;
-}
-
-#gallery img {
-	margin: 20px 0;
+#gallery-item {
+	display: block;
+	margin: 20px auto;
 	height: 240px;
 	width: 240px;
 }
@@ -111,7 +107,26 @@ li {
 }
 }
 
-/* 600px Breakpoint Enhancements */
-@media (min-width: 480px) {
+/* 640px Breakpoint Enhancements */
+@media (min-width: 640px) {
+body {
+	overflow-x: scroll;
+	white-space: nowrap;
+}
 
+#nav {
+	position: fixed;
+	width: 100%;
+}
+
+main {
+	position: relative;
+	top: 60px;
+}
+
+#gallery-item {
+	display: inline-block;
+	margin: 80px 0;
+	padding: 0 80px;
+}
 }
