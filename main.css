@@ -51,11 +51,15 @@ li {
 	
 	
 /* Main */
+<<<<<<< HEAD
 #gallery {
 	margin: 0;
 	padding: 0;
 }
 .gallery-item img{
+=======
+.gallery-item {
+>>>>>>> 438e6dd20907ce308a04ef056602509c3774edb5
 	display: block;
 	margin: 20px auto;
 	height: 240px;
